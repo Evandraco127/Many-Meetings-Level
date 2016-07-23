@@ -1,25 +1,383 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="Wb9-Xn-nqA"/>
+                        <viewControllerLayoutGuide type="bottom" id="AO3-z8-G8y"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4S-Xq-MhS">
+                                <rect key="frame" x="124" y="209" width="321" height="111"/>
+                                <state key="normal" title="Elpida"/>
+                                <connections>
+                                    <segue destination="Hp7-fd-TkH" kind="modal" id="SbM-5K-A0f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bd-8I-Z20">
+                                <rect key="frame" x="120" y="107" width="328" height="94"/>
+                                <state key="normal" title="Mie"/>
+                                <connections>
+                                    <segue destination="XIQ-jP-4JK" kind="modal" id="kjJ-5L-fSk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYL-IZ-Dof">
+                                <rect key="frame" x="120" y="63" width="328" height="30"/>
+                                <state key="normal" title="Amadora"/>
+                                <connections>
+                                    <segue destination="ysY-so-65t" kind="modal" id="Vwk-LL-nT4"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="139" y="313"/>
+        </scene>
+        <!--Amadoras View Controller-->
+        <scene sceneID="hTC-ne-0sT">
+            <objects>
+                <viewController id="ysY-so-65t" customClass="AmadorasViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rew-a1-em4"/>
+                        <viewControllerLayoutGuide type="bottom" id="KZD-gt-reh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFit" id="PLE-xN-iX3">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EoC-Wv-yCy">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="44"/>
+                                <color key="backgroundColor" red="0.99454442099999996" green="0.44236052840000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Amadora" id="EIz-es-hoO">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="6cw-98-nq7">
+                                            <connections>
+                                                <segue destination="jFR-Hx-Jyb" kind="unwind" unwindAction="unwindToThisViewController:" id="QbA-iX-x3e"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next Page" id="rAM-4a-9KU">
+                                            <connections>
+                                                <segue destination="t4f-6u-Wze" kind="modal" id="2sM-ZA-e28"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" semanticContentAttribute="spatial" horizontalHuggingPriority="10" verticalHuggingPriority="10" fixedFrame="YES" layoutMarginsFollowReadableWidth="YES" image="AmadoraColorNQ1ios.png" translatesAutoresizingMaskIntoConstraints="NO" id="g4U-jh-NWg">
+                                <rect key="frame" x="0.0" y="44" width="568" height="276"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7r-pW-1oO">
+                                <rect key="frame" x="43" y="80" width="161" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Amadora: You can talk?"/>
+                                <connections>
+                                    <action selector="Button1Sound:" destination="ysY-so-65t" eventType="touchUpInside" id="oil-l2-WHm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pzp-bu-Jcg">
+                                <rect key="frame" x="43" y="147" width="156" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="P: I can"/>
+                                <connections>
+                                    <action selector="Button2Sound:" destination="ysY-so-65t" eventType="touchUpInside" id="aFA-Vc-eIS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="FdA-ov-GMv">
+                                <rect key="frame" x="55" y="194" width="149" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Amadora:I'm Amadora what should I call you?"/>
+                                <connections>
+                                    <action selector="Button3Sound:" destination="ysY-so-65t" eventType="touchUpInside" id="35e-l6-WRh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFf-Le-rnP">
+                                <rect key="frame" x="43" y="257" width="101" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="P:Call me p!"/>
+                                <connections>
+                                    <action selector="Button4Sound:" destination="ysY-so-65t" eventType="touchUpInside" id="n3h-9B-o34"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r53-cH-Mh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="jFR-Hx-Jyb" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="1213"/>
+        </scene>
+        <!--Ama2 View Controller-->
+        <scene sceneID="qG8-CZ-Cwe">
+            <objects>
+                <viewController id="t4f-6u-Wze" customClass="Ama2ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2h9-cw-609"/>
+                        <viewControllerLayoutGuide type="bottom" id="M3F-y0-K7E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fc5-Uk-SaV">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AmadoraNQmeetIOS2.png" translatesAutoresizingMaskIntoConstraints="NO" id="MHj-4D-jpA">
+                                <rect key="frame" x="50" y="44" width="468" height="276"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="X9o-zm-yKK">
+                                <rect key="frame" x="382" y="232" width="136" height="80"/>
+                                <state key="normal" title="P:Your mom dosn't Know but I can't say alot."/>
+                                <connections>
+                                    <action selector="Button6Sound:" destination="t4f-6u-Wze" eventType="touchUpInside" id="dgO-k2-tSn"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jte-jB-7PO">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="44"/>
+                                <items>
+                                    <navigationItem title="Page 2" id="xYn-Ye-n15">
+                                        <barButtonItem key="leftBarButtonItem" title="Previous" id="aI5-ER-phq">
+                                            <connections>
+                                                <segue destination="Gu2-yU-Jb1" kind="unwind" unwindAction="unwindToThisAmadorasViewController:" id="cu0-y6-sTa"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next page" id="d10-dL-j3t">
+                                            <connections>
+                                                <segue destination="2JM-b0-Oup" kind="modal" id="nQW-SS-2G4"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="qBK-Ni-8Sf">
+                                <rect key="frame" x="50" y="223" width="174" height="98"/>
+                                <state key="normal" title="Amadora: She Knows you can talk? She didnt tell me you could talk!"/>
+                                <connections>
+                                    <action selector="Button5Sound:" destination="t4f-6u-Wze" eventType="touchUpInside" id="JK9-Qb-d48"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rVw-kL-Uyx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Gu2-yU-Jb1" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="778" y="1213"/>
+        </scene>
+        <!--Ama3 View Controller-->
+        <scene sceneID="gVv-se-5HQ">
+            <objects>
+                <viewController id="2JM-b0-Oup" customClass="Ama3ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iaA-PY-itG"/>
+                        <viewControllerLayoutGuide type="bottom" id="E8X-50-SBH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jyS-TP-GGo">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="App-p2-w9E">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="44"/>
+                                <items>
+                                    <navigationItem title="Page 3" id="e6a-6D-8bc">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="a8G-Kc-4HS">
+                                            <connections>
+                                                <segue destination="2sY-hD-3Q5" kind="unwind" unwindAction="unwindToThisAma2ViewController:" id="xh6-PE-O4f"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="qpYeahios.png" translatesAutoresizingMaskIntoConstraints="NO" id="24H-nJ-gY5">
+                                <rect key="frame" x="87" y="44" width="398" height="276"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4N-xk-GJx">
+                                <rect key="frame" x="28" y="73" width="160" height="30"/>
+                                <state key="normal" title="Amadora: I'll teach you."/>
+                                <connections>
+                                    <action selector="Button7Sound:" destination="2JM-b0-Oup" eventType="touchUpInside" id="Grj-pA-OMx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQB-79-9VK">
+                                <rect key="frame" x="446" y="225" width="56" height="30"/>
+                                <state key="normal" title="P: Yeah!"/>
+                                <connections>
+                                    <action selector="Button8Sound:" destination="2JM-b0-Oup" eventType="touchUpInside" id="V8e-uW-aAl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QfO-ie-126" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="2sY-hD-3Q5" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1437" y="1213"/>
+        </scene>
+        <!--Elpida View Controller-->
+        <scene sceneID="zt6-7f-UKQ">
+            <objects>
+                <viewController id="Hp7-fd-TkH" customClass="ElpidaViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5us-Eg-jPa"/>
+                        <viewControllerLayoutGuide type="bottom" id="rav-y6-QLc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nd7-bQ-T8X">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3WA-aC-daL">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="tbS-FK-Oc8">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="13y-qy-fdT">
+                                            <connections>
+                                                <segue destination="tw6-uf-aLu" kind="unwind" unwindAction="unwindToThisViewController:" id="8tj-PL-PHh"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EmeetsEIOS.png" translatesAutoresizingMaskIntoConstraints="NO" id="XiL-3e-nn7">
+                                <rect key="frame" x="46" y="54" width="481" height="310"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FwE-nC-ABx">
+                                <rect key="frame" x="56" y="64" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rl2-DM-LaC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="tw6-uf-aLu" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="888" y="459"/>
+        </scene>
+        <!--Mies View Controller-->
+        <scene sceneID="Zp6-vI-LO6">
+            <objects>
+                <viewController id="XIQ-jP-4JK" customClass="MiesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qg9-N8-sx3"/>
+                        <viewControllerLayoutGuide type="bottom" id="nO9-mx-rE1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dE5-Jr-6ZF">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gGI-fS-9ax">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="44"/>
+                                <items>
+                                    <navigationItem title="Page 1" id="KvS-iw-ZLJ">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="Xdz-o9-DFI">
+                                            <connections>
+                                                <segue destination="Tdf-gu-hfr" kind="unwind" unwindAction="unwindToThisViewController:" id="6Ln-Ct-qL4"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mieOne BackGroundIOS.png" translatesAutoresizingMaskIntoConstraints="NO" id="092-TY-Qn8">
+                                <rect key="frame" x="25" y="44" width="523" height="276"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="BFW-1C-rQ6" kind="modal" id="eiH-YO-Wis"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JCd-X2-5Rh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Tdf-gu-hfr" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="858" y="-180"/>
+        </scene>
+        <!--Mie2 View Controller-->
+        <scene sceneID="0pB-6M-fzA">
+            <objects>
+                <viewController id="BFW-1C-rQ6" customClass="Mie2ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vba-JS-dLa"/>
+                        <viewControllerLayoutGuide type="bottom" id="wxQ-vG-HxK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wzx-MD-g8Y">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G73-dC-h1n">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="44"/>
+                                <items>
+                                    <navigationItem title="Page 2" id="LSU-ux-d12"/>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mieOneIOS2.png" translatesAutoresizingMaskIntoConstraints="NO" id="3mX-op-Nl9">
+                                <rect key="frame" x="80" y="44" width="397" height="276"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="zid-yR-EZW" kind="modal" id="oKJ-eH-cG2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u9h-t8-YH2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1514" y="-180"/>
+        </scene>
+        <!--Mie3 View Controller-->
+        <scene sceneID="uor-W8-SKf">
+            <objects>
+                <viewController id="zid-yR-EZW" customClass="Mie3ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZgP-cs-kuL"/>
+                        <viewControllerLayoutGuide type="bottom" id="BF5-WE-EqI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UV4-N3-ImX">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r5h-tW-s4B">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="44"/>
+                                <items>
+                                    <navigationItem title="Page 3" id="wty-fW-Xma"/>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RthanKs.png" translatesAutoresizingMaskIntoConstraints="NO" id="tjJ-Fi-fe0">
+                                <rect key="frame" x="7" y="44" width="561" height="276"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="84f-SD-XRL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2195" y="-180"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="AmadoraColorNQ1ios.png" width="690" height="533"/>
+        <image name="AmadoraNQmeetIOS2.png" width="546" height="293"/>
+        <image name="EmeetsEIOS.png" width="3000" height="1994"/>
+        <image name="RthanKs.png" width="700" height="958"/>
+        <image name="mieOne BackGroundIOS.png" width="3600" height="2530"/>
+        <image name="mieOneIOS2.png" width="3593" height="2522"/>
+        <image name="qpYeahios.png" width="600" height="452"/>
+    </resources>
 </document>

@@ -7,25 +7,127 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330379101D02BB6100BE99C4 /* Ama3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303790F1D02BB6000BE99C4 /* Ama3ViewController.m */; };
+		330379151D02F6EF00BE99C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330379131D02F6EF00BE99C4 /* Main.storyboard */; };
+		330B7F471D13984700579327 /* canU.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F321D13984700579327 /* canU.mp3 */; };
+		330B7F481D13984700579327 /* Mie It's Nice to 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F331D13984700579327 /* Mie It's Nice to 2.mp3 */; };
+		330B7F491D13984700579327 /* Mie Let's go outside4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F341D13984700579327 /* Mie Let's go outside4.mp3 */; };
+		330B7F4A1D13984700579327 /* Mie Me too let's go8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F351D13984700579327 /* Mie Me too let's go8.mp3 */; };
+		330B7F4B1D13984700579327 /* Mie My Mommie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F361D13984700579327 /* Mie My Mommie.mp3 */; };
+		330B7F4C1D13984700579327 /* Mie That is ah6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F371D13984700579327 /* Mie That is ah6.mp3 */; };
+		330B7F4D1D13984700579327 /* Mie That is w7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F381D13984700579327 /* Mie That is w7.mp3 */; };
+		330B7F4E1D13984700579327 /* Mie This is5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F391D13984700579327 /* Mie This is5.mp3 */; };
+		330B7F4F1D13984700579327 /* Mie This6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F3A1D13984700579327 /* Mie This6.mp3 */; };
+		330B7F501D13984700579327 /* Mie Well then3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F3B1D13984700579327 /* Mie Well then3.mp3 */; };
+		330B7F511D13984700579327 /* My name is mie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F3C1D13984700579327 /* My name is mie.mp3 */; };
+		330B7F521D13984700579327 /* NiceTOO.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F3D1D13984700579327 /* NiceTOO.mp3 */; };
+		330B7F531D13984700579327 /* R_01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F3E1D13984700579327 /* R_01.mp3 */; };
+		330B7F541D13984700579327 /* R_03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F3F1D13984700579327 /* R_03.mp3 */; };
+		330B7F551D13984700579327 /* R_04.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F401D13984700579327 /* R_04.mp3 */; };
+		330B7F561D13984700579327 /* R_05.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F411D13984700579327 /* R_05.mp3 */; };
+		330B7F571D13984700579327 /* R_06.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F421D13984700579327 /* R_06.mp3 */; };
+		330B7F581D13984700579327 /* R_07.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F431D13984700579327 /* R_07.mp3 */; };
+		330B7F591D13984700579327 /* R_08.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F441D13984700579327 /* R_08.mp3 */; };
+		330B7F5A1D13984700579327 /* R_MyN.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F451D13984700579327 /* R_MyN.mp3 */; };
+		330B7F5B1D13984700579327 /* R_nMeetU.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F461D13984700579327 /* R_nMeetU.mp3 */; };
+		330B7F661D13987700579327 /* Amadora 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F5C1D13987700579327 /* Amadora 1.m4a */; };
+		330B7F671D13987700579327 /* Amadora I'll teach you4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F5D1D13987700579327 /* Amadora I'll teach you4.mp3 */; };
+		330B7F681D13987700579327 /* Amadora I'm Amadora What should I call you2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F5E1D13987700579327 /* Amadora I'm Amadora What should I call you2.mp3 */; };
+		330B7F691D13987700579327 /* Amadora you can talk1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F5F1D13987700579327 /* Amadora you can talk1.mp3 */; };
+		330B7F6A1D13987700579327 /* AmadoraShe didnt tell3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F601D13987700579327 /* AmadoraShe didnt tell3.mp3 */; };
+		330B7F6B1D13987700579327 /* P yeah4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F611D13987700579327 /* P yeah4.mp3 */; };
+		330B7F6C1D13987700579327 /* P Your mom dosnt know but I cant say alot3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F621D13987700579327 /* P Your mom dosnt know but I cant say alot3.mp3 */; };
+		330B7F6D1D13987700579327 /* Ps call me p2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F631D13987700579327 /* Ps call me p2.mp3 */; };
+		330B7F6E1D13987700579327 /* Ps First Convo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F641D13987700579327 /* Ps First Convo.m4a */; };
+		330B7F6F1D13987700579327 /* Ps I can 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F651D13987700579327 /* Ps I can 1.mp3 */; };
+		330B7F711D13990A00579327 /* AmadoraColorNQ1ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F701D13990A00579327 /* AmadoraColorNQ1ios.png */; };
+		330B7F741D13993000579327 /* AmadoraNQmeetIOS2.png in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F721D13993000579327 /* AmadoraNQmeetIOS2.png */; };
+		330B7F771D13996100579327 /* mieOne BackGroundIOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F761D13996100579327 /* mieOne BackGroundIOS.png */; };
+		330B7F791D1399BE00579327 /* qpYeahios.png in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F781D1399BE00579327 /* qpYeahios.png */; };
+		330B7F7B1D13A56700579327 /* EmeetsEIOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 330B7F7A1D13A56700579327 /* EmeetsEIOS.png */; };
+		33191E801D05A1B700C349CD /* mieOneIOS2.png in Resources */ = {isa = PBXBuildFile; fileRef = 33191E7F1D05A1B700C349CD /* mieOneIOS2.png */; };
+		3327F8321D05974D0083EB76 /* Mie3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3327F8311D05974D0083EB76 /* Mie3ViewController.m */; };
+		3327F8341D05994A0083EB76 /* RthanKs.png in Resources */ = {isa = PBXBuildFile; fileRef = 3327F8331D05994A0083EB76 /* RthanKs.png */; };
 		333546FD1D00695000D0F207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 333546FC1D00695000D0F207 /* main.m */; };
 		333547001D00695000D0F207 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 333546FF1D00695000D0F207 /* AppDelegate.m */; };
 		333547031D00695000D0F207 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333547021D00695000D0F207 /* ViewController.m */; };
-		333547061D00695000D0F207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333547041D00695000D0F207 /* Main.storyboard */; };
 		333547081D00695000D0F207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333547071D00695000D0F207 /* Assets.xcassets */; };
 		3335470B1D00695000D0F207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333547091D00695000D0F207 /* LaunchScreen.storyboard */; };
+		3335471D1D006A6B00D0F207 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3335471C1D006A6B00D0F207 /* AudioToolbox.framework */; };
+		333547201D006B3900D0F207 /* AmadorasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3335471F1D006B3900D0F207 /* AmadorasViewController.m */; };
+		333547231D006B7200D0F207 /* MiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333547221D006B7200D0F207 /* MiesViewController.m */; };
+		333547261D006B8D00D0F207 /* ElpidaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333547251D006B8D00D0F207 /* ElpidaViewController.m */; };
+		33DA0FD01D010475005A9D7B /* Ama2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DA0FCF1D010475005A9D7B /* Ama2ViewController.m */; };
+		33F7367D1D048773006948D2 /* Mie2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F7367C1D048773006948D2 /* Mie2ViewController.m */; };
+		33F736801D048787006948D2 /* Elpida2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F7367F1D048787006948D2 /* Elpida2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3303790E1D02BB6000BE99C4 /* Ama3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ama3ViewController.h; sourceTree = "<group>"; };
+		3303790F1D02BB6000BE99C4 /* Ama3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ama3ViewController.m; sourceTree = "<group>"; };
+		330379141D02F6EF00BE99C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		330B7F321D13984700579327 /* canU.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = canU.mp3; sourceTree = "<group>"; };
+		330B7F331D13984700579327 /* Mie It's Nice to 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mie It's Nice to 2.mp3"; sourceTree = "<group>"; };
+		330B7F341D13984700579327 /* Mie Let's go outside4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mie Let's go outside4.mp3"; sourceTree = "<group>"; };
+		330B7F351D13984700579327 /* Mie Me too let's go8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mie Me too let's go8.mp3"; sourceTree = "<group>"; };
+		330B7F361D13984700579327 /* Mie My Mommie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mie My Mommie.mp3"; sourceTree = "<group>"; };
+		330B7F371D13984700579327 /* Mie That is ah6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mie That is ah6.mp3"; sourceTree = "<group>"; };
+		330B7F381D13984700579327 /* Mie That is w7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mie That is w7.mp3"; sourceTree = "<group>"; };
+		330B7F391D13984700579327 /* Mie This is5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mie This is5.mp3"; sourceTree = "<group>"; };
+		330B7F3A1D13984700579327 /* Mie This6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mie This6.mp3"; sourceTree = "<group>"; };
+		330B7F3B1D13984700579327 /* Mie Well then3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mie Well then3.mp3"; sourceTree = "<group>"; };
+		330B7F3C1D13984700579327 /* My name is mie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "My name is mie.mp3"; sourceTree = "<group>"; };
+		330B7F3D1D13984700579327 /* NiceTOO.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NiceTOO.mp3; sourceTree = "<group>"; };
+		330B7F3E1D13984700579327 /* R_01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = R_01.mp3; sourceTree = "<group>"; };
+		330B7F3F1D13984700579327 /* R_03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = R_03.mp3; sourceTree = "<group>"; };
+		330B7F401D13984700579327 /* R_04.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = R_04.mp3; sourceTree = "<group>"; };
+		330B7F411D13984700579327 /* R_05.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = R_05.mp3; sourceTree = "<group>"; };
+		330B7F421D13984700579327 /* R_06.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = R_06.mp3; sourceTree = "<group>"; };
+		330B7F431D13984700579327 /* R_07.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = R_07.mp3; sourceTree = "<group>"; };
+		330B7F441D13984700579327 /* R_08.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = R_08.mp3; sourceTree = "<group>"; };
+		330B7F451D13984700579327 /* R_MyN.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = R_MyN.mp3; sourceTree = "<group>"; };
+		330B7F461D13984700579327 /* R_nMeetU.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = R_nMeetU.mp3; sourceTree = "<group>"; };
+		330B7F5C1D13987700579327 /* Amadora 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amadora 1.m4a"; sourceTree = "<group>"; };
+		330B7F5D1D13987700579327 /* Amadora I'll teach you4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Amadora I'll teach you4.mp3"; sourceTree = "<group>"; };
+		330B7F5E1D13987700579327 /* Amadora I'm Amadora What should I call you2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Amadora I'm Amadora What should I call you2.mp3"; sourceTree = "<group>"; };
+		330B7F5F1D13987700579327 /* Amadora you can talk1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Amadora you can talk1.mp3"; sourceTree = "<group>"; };
+		330B7F601D13987700579327 /* AmadoraShe didnt tell3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "AmadoraShe didnt tell3.mp3"; sourceTree = "<group>"; };
+		330B7F611D13987700579327 /* P yeah4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "P yeah4.mp3"; sourceTree = "<group>"; };
+		330B7F621D13987700579327 /* P Your mom dosnt know but I cant say alot3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "P Your mom dosnt know but I cant say alot3.mp3"; sourceTree = "<group>"; };
+		330B7F631D13987700579327 /* Ps call me p2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ps call me p2.mp3"; sourceTree = "<group>"; };
+		330B7F641D13987700579327 /* Ps First Convo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ps First Convo.m4a"; sourceTree = "<group>"; };
+		330B7F651D13987700579327 /* Ps I can 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ps I can 1.mp3"; sourceTree = "<group>"; };
+		330B7F701D13990A00579327 /* AmadoraColorNQ1ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AmadoraColorNQ1ios.png; sourceTree = "<group>"; };
+		330B7F721D13993000579327 /* AmadoraNQmeetIOS2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AmadoraNQmeetIOS2.png; sourceTree = "<group>"; };
+		330B7F761D13996100579327 /* mieOne BackGroundIOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mieOne BackGroundIOS.png"; sourceTree = "<group>"; };
+		330B7F781D1399BE00579327 /* qpYeahios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qpYeahios.png; sourceTree = "<group>"; };
+		330B7F7A1D13A56700579327 /* EmeetsEIOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EmeetsEIOS.png; sourceTree = "<group>"; };
+		33191E7F1D05A1B700C349CD /* mieOneIOS2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mieOneIOS2.png; sourceTree = "<group>"; };
+		3327F8301D05974D0083EB76 /* Mie3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mie3ViewController.h; sourceTree = "<group>"; };
+		3327F8311D05974D0083EB76 /* Mie3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mie3ViewController.m; sourceTree = "<group>"; };
+		3327F8331D05994A0083EB76 /* RthanKs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RthanKs.png; sourceTree = "<group>"; };
 		333546F81D00695000D0F207 /* Many Meetings Level.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Many Meetings Level.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		333546FC1D00695000D0F207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		333546FE1D00695000D0F207 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		333546FF1D00695000D0F207 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		333547011D00695000D0F207 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		333547021D00695000D0F207 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		333547051D00695000D0F207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		333547071D00695000D0F207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3335470A1D00695000D0F207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3335470C1D00695000D0F207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3335471C1D006A6B00D0F207 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3335471E1D006B3900D0F207 /* AmadorasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmadorasViewController.h; sourceTree = "<group>"; };
+		3335471F1D006B3900D0F207 /* AmadorasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmadorasViewController.m; sourceTree = "<group>"; };
+		333547211D006B7200D0F207 /* MiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiesViewController.h; sourceTree = "<group>"; };
+		333547221D006B7200D0F207 /* MiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiesViewController.m; sourceTree = "<group>"; };
+		333547241D006B8D00D0F207 /* ElpidaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElpidaViewController.h; sourceTree = "<group>"; };
+		333547251D006B8D00D0F207 /* ElpidaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElpidaViewController.m; sourceTree = "<group>"; };
+		33DA0FCE1D010475005A9D7B /* Ama2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ama2ViewController.h; sourceTree = "<group>"; };
+		33DA0FCF1D010475005A9D7B /* Ama2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ama2ViewController.m; sourceTree = "<group>"; };
+		33F7367B1D048773006948D2 /* Mie2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mie2ViewController.h; sourceTree = "<group>"; };
+		33F7367C1D048773006948D2 /* Mie2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mie2ViewController.m; sourceTree = "<group>"; };
+		33F7367E1D048787006948D2 /* Elpida2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Elpida2ViewController.h; sourceTree = "<group>"; };
+		33F7367F1D048787006948D2 /* Elpida2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Elpida2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,15 +135,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3335471D1D006A6B00D0F207 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3313B3921D0408ED008E2556 /* Amadora */ = {
+			isa = PBXGroup;
+			children = (
+				330B7F5C1D13987700579327 /* Amadora 1.m4a */,
+				330B7F5D1D13987700579327 /* Amadora I'll teach you4.mp3 */,
+				330B7F5E1D13987700579327 /* Amadora I'm Amadora What should I call you2.mp3 */,
+				330B7F5F1D13987700579327 /* Amadora you can talk1.mp3 */,
+				330B7F601D13987700579327 /* AmadoraShe didnt tell3.mp3 */,
+				330B7F611D13987700579327 /* P yeah4.mp3 */,
+				330B7F621D13987700579327 /* P Your mom dosnt know but I cant say alot3.mp3 */,
+				330B7F631D13987700579327 /* Ps call me p2.mp3 */,
+				330B7F641D13987700579327 /* Ps First Convo.m4a */,
+				330B7F651D13987700579327 /* Ps I can 1.mp3 */,
+			);
+			name = Amadora;
+			sourceTree = "<group>";
+		};
+		3313B3931D040944008E2556 /* Mie */ = {
+			isa = PBXGroup;
+			children = (
+				330B7F321D13984700579327 /* canU.mp3 */,
+				330B7F331D13984700579327 /* Mie It's Nice to 2.mp3 */,
+				330B7F341D13984700579327 /* Mie Let's go outside4.mp3 */,
+				330B7F351D13984700579327 /* Mie Me too let's go8.mp3 */,
+				330B7F361D13984700579327 /* Mie My Mommie.mp3 */,
+				330B7F371D13984700579327 /* Mie That is ah6.mp3 */,
+				330B7F381D13984700579327 /* Mie That is w7.mp3 */,
+				330B7F391D13984700579327 /* Mie This is5.mp3 */,
+				330B7F3A1D13984700579327 /* Mie This6.mp3 */,
+				330B7F3B1D13984700579327 /* Mie Well then3.mp3 */,
+				330B7F3C1D13984700579327 /* My name is mie.mp3 */,
+				330B7F3D1D13984700579327 /* NiceTOO.mp3 */,
+				330B7F3E1D13984700579327 /* R_01.mp3 */,
+				330B7F3F1D13984700579327 /* R_03.mp3 */,
+				330B7F401D13984700579327 /* R_04.mp3 */,
+				330B7F411D13984700579327 /* R_05.mp3 */,
+				330B7F421D13984700579327 /* R_06.mp3 */,
+				330B7F431D13984700579327 /* R_07.mp3 */,
+				330B7F441D13984700579327 /* R_08.mp3 */,
+				330B7F451D13984700579327 /* R_MyN.mp3 */,
+				330B7F461D13984700579327 /* R_nMeetU.mp3 */,
+			);
+			name = Mie;
+			sourceTree = "<group>";
+		};
 		333546EF1D00695000D0F207 = {
 			isa = PBXGroup;
 			children = (
+				3335471C1D006A6B00D0F207 /* AudioToolbox.framework */,
 				333546FA1D00695000D0F207 /* Many Meetings Level */,
 				333546F91D00695000D0F207 /* Products */,
 			);
@@ -58,13 +207,14 @@
 		333546FA1D00695000D0F207 /* Many Meetings Level */ = {
 			isa = PBXGroup;
 			children = (
-				333546FE1D00695000D0F207 /* AppDelegate.h */,
-				333546FF1D00695000D0F207 /* AppDelegate.m */,
-				333547011D00695000D0F207 /* ViewController.h */,
-				333547021D00695000D0F207 /* ViewController.m */,
-				333547041D00695000D0F207 /* Main.storyboard */,
-				333547071D00695000D0F207 /* Assets.xcassets */,
+				333547271D007CD600D0F207 /* Audio */,
+				333547151D0069B700D0F207 /* Parts */,
 				333547091D00695000D0F207 /* LaunchScreen.storyboard */,
+				330379131D02F6EF00BE99C4 /* Main.storyboard */,
+				333547141D00699600D0F207 /* Images */,
+				333547131D00698400D0F207 /* View Controllers */,
+				333547121D00696200D0F207 /* Special Classes */,
+				333547071D00695000D0F207 /* Assets.xcassets */,
 				3335470C1D00695000D0F207 /* Info.plist */,
 				333546FB1D00695000D0F207 /* Supporting Files */,
 			);
@@ -77,6 +227,70 @@
 				333546FC1D00695000D0F207 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		333547121D00696200D0F207 /* Special Classes */ = {
+			isa = PBXGroup;
+			children = (
+				333546FE1D00695000D0F207 /* AppDelegate.h */,
+				333546FF1D00695000D0F207 /* AppDelegate.m */,
+			);
+			name = "Special Classes";
+			sourceTree = "<group>";
+		};
+		333547131D00698400D0F207 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				333547011D00695000D0F207 /* ViewController.h */,
+				333547021D00695000D0F207 /* ViewController.m */,
+				3335471E1D006B3900D0F207 /* AmadorasViewController.h */,
+				3335471F1D006B3900D0F207 /* AmadorasViewController.m */,
+				333547211D006B7200D0F207 /* MiesViewController.h */,
+				333547221D006B7200D0F207 /* MiesViewController.m */,
+				333547241D006B8D00D0F207 /* ElpidaViewController.h */,
+				333547251D006B8D00D0F207 /* ElpidaViewController.m */,
+				33DA0FCE1D010475005A9D7B /* Ama2ViewController.h */,
+				33DA0FCF1D010475005A9D7B /* Ama2ViewController.m */,
+				3303790E1D02BB6000BE99C4 /* Ama3ViewController.h */,
+				3303790F1D02BB6000BE99C4 /* Ama3ViewController.m */,
+				33F7367B1D048773006948D2 /* Mie2ViewController.h */,
+				33F7367C1D048773006948D2 /* Mie2ViewController.m */,
+				33F7367E1D048787006948D2 /* Elpida2ViewController.h */,
+				33F7367F1D048787006948D2 /* Elpida2ViewController.m */,
+				3327F8301D05974D0083EB76 /* Mie3ViewController.h */,
+				3327F8311D05974D0083EB76 /* Mie3ViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		333547141D00699600D0F207 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				330B7F7A1D13A56700579327 /* EmeetsEIOS.png */,
+				330B7F781D1399BE00579327 /* qpYeahios.png */,
+				330B7F761D13996100579327 /* mieOne BackGroundIOS.png */,
+				330B7F721D13993000579327 /* AmadoraNQmeetIOS2.png */,
+				330B7F701D13990A00579327 /* AmadoraColorNQ1ios.png */,
+				33191E7F1D05A1B700C349CD /* mieOneIOS2.png */,
+				3327F8331D05994A0083EB76 /* RthanKs.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		333547151D0069B700D0F207 /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Parts;
+			sourceTree = "<group>";
+		};
+		333547271D007CD600D0F207 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				3313B3931D040944008E2556 /* Mie */,
+				3313B3921D0408ED008E2556 /* Amadora */,
+			);
+			name = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +324,7 @@
 				TargetAttributes = {
 					333546F71D00695000D0F207 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = PREU22UYWJ;
 					};
 				};
 			};
@@ -136,9 +351,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				330B7F491D13984700579327 /* Mie Let's go outside4.mp3 in Resources */,
+				330B7F521D13984700579327 /* NiceTOO.mp3 in Resources */,
+				330B7F6B1D13987700579327 /* P yeah4.mp3 in Resources */,
 				3335470B1D00695000D0F207 /* LaunchScreen.storyboard in Resources */,
+				330B7F741D13993000579327 /* AmadoraNQmeetIOS2.png in Resources */,
+				330B7F711D13990A00579327 /* AmadoraColorNQ1ios.png in Resources */,
+				330B7F501D13984700579327 /* Mie Well then3.mp3 in Resources */,
+				330B7F4F1D13984700579327 /* Mie This6.mp3 in Resources */,
+				330B7F591D13984700579327 /* R_08.mp3 in Resources */,
+				330B7F481D13984700579327 /* Mie It's Nice to 2.mp3 in Resources */,
 				333547081D00695000D0F207 /* Assets.xcassets in Resources */,
-				333547061D00695000D0F207 /* Main.storyboard in Resources */,
+				330B7F6F1D13987700579327 /* Ps I can 1.mp3 in Resources */,
+				330B7F4E1D13984700579327 /* Mie This is5.mp3 in Resources */,
+				330B7F4C1D13984700579327 /* Mie That is ah6.mp3 in Resources */,
+				330B7F691D13987700579327 /* Amadora you can talk1.mp3 in Resources */,
+				330B7F671D13987700579327 /* Amadora I'll teach you4.mp3 in Resources */,
+				330B7F681D13987700579327 /* Amadora I'm Amadora What should I call you2.mp3 in Resources */,
+				330B7F571D13984700579327 /* R_06.mp3 in Resources */,
+				330B7F6E1D13987700579327 /* Ps First Convo.m4a in Resources */,
+				330B7F511D13984700579327 /* My name is mie.mp3 in Resources */,
+				330B7F581D13984700579327 /* R_07.mp3 in Resources */,
+				330B7F5B1D13984700579327 /* R_nMeetU.mp3 in Resources */,
+				330B7F7B1D13A56700579327 /* EmeetsEIOS.png in Resources */,
+				330B7F561D13984700579327 /* R_05.mp3 in Resources */,
+				330B7F4D1D13984700579327 /* Mie That is w7.mp3 in Resources */,
+				330B7F791D1399BE00579327 /* qpYeahios.png in Resources */,
+				33191E801D05A1B700C349CD /* mieOneIOS2.png in Resources */,
+				330B7F541D13984700579327 /* R_03.mp3 in Resources */,
+				330B7F6D1D13987700579327 /* Ps call me p2.mp3 in Resources */,
+				330B7F6A1D13987700579327 /* AmadoraShe didnt tell3.mp3 in Resources */,
+				330B7F4A1D13984700579327 /* Mie Me too let's go8.mp3 in Resources */,
+				330B7F4B1D13984700579327 /* Mie My Mommie.mp3 in Resources */,
+				330B7F661D13987700579327 /* Amadora 1.m4a in Resources */,
+				330B7F551D13984700579327 /* R_04.mp3 in Resources */,
+				330B7F5A1D13984700579327 /* R_MyN.mp3 in Resources */,
+				3327F8341D05994A0083EB76 /* RthanKs.png in Resources */,
+				330379151D02F6EF00BE99C4 /* Main.storyboard in Resources */,
+				330B7F771D13996100579327 /* mieOne BackGroundIOS.png in Resources */,
+				330B7F531D13984700579327 /* R_01.mp3 in Resources */,
+				330B7F6C1D13987700579327 /* P Your mom dosnt know but I cant say alot3.mp3 in Resources */,
+				330B7F471D13984700579327 /* canU.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +402,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				330379101D02BB6100BE99C4 /* Ama3ViewController.m in Sources */,
+				3327F8321D05974D0083EB76 /* Mie3ViewController.m in Sources */,
+				33DA0FD01D010475005A9D7B /* Ama2ViewController.m in Sources */,
 				333547031D00695000D0F207 /* ViewController.m in Sources */,
+				333547261D006B8D00D0F207 /* ElpidaViewController.m in Sources */,
 				333547001D00695000D0F207 /* AppDelegate.m in Sources */,
+				333547201D006B3900D0F207 /* AmadorasViewController.m in Sources */,
+				33F7367D1D048773006948D2 /* Mie2ViewController.m in Sources */,
+				333547231D006B7200D0F207 /* MiesViewController.m in Sources */,
+				33F736801D048787006948D2 /* Elpida2ViewController.m in Sources */,
 				333546FD1D00695000D0F207 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,10 +419,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		333547041D00695000D0F207 /* Main.storyboard */ = {
+		330379131D02F6EF00BE99C4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				333547051D00695000D0F207 /* Base */,
+				330379141D02F6EF00BE99C4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -263,10 +524,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Many Meetings Level/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "T.A.S.Many-Meetings-Level";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -274,10 +538,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Many Meetings Level/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "T.A.S.Many-Meetings-Level";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +567,7 @@
 				333547111D00695000D0F207 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
